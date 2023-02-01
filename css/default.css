@@ -1,0 +1,100 @@
+:root {
+  --white: #FFF;
+  --black: #000;
+  --font-color-base: #666;
+  --font-color-dark: #212529;
+  --font-color-light: #b0aebe;
+  --font-color-link: #57A6FF;
+  --footer: #34314b;
+  --footer-base: #2e2b45;
+  --contrast: rgba(246, 248, 249, 0.8);
+  --success: #64ECF5;
+  --gold: #ffd900;
+  --grad-1: #faf5b9;
+  --grad-2: #FBF5B7;
+  --grad-3: #BF953F;
+  --grad-4: #b8974f;
+  --grad-5: #AA771C;
+
+  --size-10: 0.625rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-60: 3.75rem;
+  --size-70: 4.375rem;
+  --size-80: 5rem;
+  --size-90: 5.625rem;
+  --size-100: 6.25rem;
+  --size-150: 9.375rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: var(--size-14);
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--font-color-base);
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+
+.container {
+  width: 70%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  height: 700px;
+}
