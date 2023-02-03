@@ -259,6 +259,7 @@ button.learn-more {
   color: var(--black);
   font-weight: 700;
   text-decoration: underline;
+  margin-top: 100px;
 }
 
 /*
